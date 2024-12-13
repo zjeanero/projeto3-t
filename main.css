@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: red;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: red;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-games .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Roboto, sans-serif;;
+}
+
+
+#sobre-a-loja, #sobre-a-loja{
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: red;
+}
+
+.nav-games .nav-link.active,
+#fale-conosco button {
+    background-color: red;
+    color: #fff;
+}
+
+.nav-games .nav-link:hover {
+    color: red;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
